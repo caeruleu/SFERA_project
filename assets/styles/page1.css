@@ -1,0 +1,131 @@
+@font-face {
+    font-family: "SFProDisplay";
+    src: url(/frontend8_project2/assets/fonts/SFProDisplay-Regular.ttf);
+}
+
+@media screen and (max-width: 767px) {
+
+    /*заглавный контейнер*/
+    .container {
+        width: 100vw;
+        background-color: rgba(66, 53, 72, 1);
+        display: flex;
+    }
+
+    /*блок с информацией*/
+    .block {
+        display: grid;
+        grid-template-columns: 82.5% 17.5%;
+        grid-template-areas: "block_caption side_elements"
+            "block_text side_elements";
+        background-color: rgba(40, 27, 90, 0.8);
+        border: 1px solid;
+        border-image: linear-gradient(60deg, rgba(254, 132, 255, 1) 0%, rgba(75, 135, 231, 1) 100%);
+        border-image-slice: 1;
+        border-radius: 20px;
+        margin: 2px 4.3vw 2px 4.3vw;
+        width: 91.5%;
+        min-height: 112px;
+    }
+
+    /*стили заголовка блока*/
+    .block_caption {
+        grid-area: block_caption;
+        align-self: end;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 1);
+        font-family: "SFProDisplay";
+        font-size: 2.3vh;
+        font-weight: 500;
+        margin: 16px 4.3vw 4px 4.3vw;
+    }
+
+    /*стили текста в блоке*/
+    .block_text {
+        grid-area: block_text;
+        font-family: "SFProDisplay";
+        font-size: 2.3vh;
+        font-weight: 400;
+        background: linear-gradient(180deg, #2FB8FF 0%, #00FFFF 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin: 0 4.3vw 16px 4.3vw;
+    }
+
+    /*контейнер для боковых элементов*/
+    .side_elements {
+        grid-area: side_elements;
+        display: grid;
+        grid-template-rows: repeat(2, 50%);
+        grid-template-areas: "countdown"
+            "check_button";
+    }
+
+    /*верхний из боковых элементов, счетчик*/
+    .countdown {
+        display: grid;
+        grid-area: countdown;
+        align-self: end;
+        background-color: rgba(26, 18, 62, 80);
+        width: 36px;
+        height: 36px;
+        line-height: 1px;
+        box-sizing: border-box;
+        font-family: "SFProDisplay";
+        border: 1px solid;
+        border-image: linear-gradient(60deg, rgba(254, 132, 255, 1) 0%, rgba(75, 135, 231, 1) 100%);
+        border-image-slice: 1;
+        border-radius: 12px;
+        margin: 8px 0 4px 0;
+    }
+
+    /*числовое значение в счетчике*/
+    .countdown_value {
+        color: white;
+        text-align: center;
+    }
+
+    /*нижний из боковых элементов, кнопка*/
+    .check_button {
+        grid-area: check_button;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        width: 36px;
+        height: 36px;
+        background-color: rgba(26, 18, 62, 80);
+        border: 1px solid;
+        border-image: linear-gradient(60deg, rgba(254, 132, 255, 1) 0%, rgba(75, 135, 231, 1) 100%);
+        border-image-slice: 1;
+        border-radius: 12px;
+        margin: 4px 0 8px 0;
+    }
+    
+        /*стили для блоков со списком*/
+    .block_list {
+        display: grid;
+        grid-template-columns: 82.5% 17.5%;
+        grid-template-areas: "block_caption side_elements"
+            "block_text side_elements"
+            "block_list_text side_elements";
+        background-color: rgba(40, 27, 90, 0.8);
+        border: 1px solid;
+        border-image: linear-gradient(60deg, rgba(254, 132, 255, 1) 0%, rgba(75, 135, 231, 1) 100%);
+        border-image-slice: 1;
+        border-radius: 20px;
+        margin: 16px 4.3vw 16px 4.3vw;
+        width: 91.5%;
+        min-height:max-content;
+    }
+
+    /*список в блоке*/
+    .block_list_text {
+       /* grid-area: block_list_text;*/
+        font-family: "SFProDisplay";
+        font-size: 2.3vh;
+        font-weight: 400;
+        background: linear-gradient(180deg, #2FB8FF 0%, #00FFFF 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin: 0 4.3vw 16px 1.3vw;
+    }
