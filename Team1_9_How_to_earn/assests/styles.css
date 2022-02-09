@@ -1,0 +1,226 @@
+@font-face {
+  font-family: "SF Pro Display";
+  src: url(/Team1_9_How_to_earn/assests/fonts/SFProDisplay-Regular.woff) format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container .item {
+    position: relative;
+    min-width: 160px;
+    height: 160px;
+    border-radius: 15px;
+    -webkit-box-shadow: inset -4px -3px 4px rgba(0, 0, 0, 0.25), inset 5px 5px 9px rgba(255, 255, 255, 0.25);
+            box-shadow: inset -4px -3px 4px rgba(0, 0, 0, 0.25), inset 5px 5px 9px rgba(255, 255, 255, 0.25);
+  }
+  .container .item-1 {
+    background: radial-gradient(96.56% 96.56% at 96.56% 2.81%, #35C0DE 1.35%, #353DDE 34.08%, #4E1AA3 66.61%, #6B0C8C 100%);
+    margin-right: 10px;
+  }
+  .container .item-2 {
+    background: radial-gradient(103.44% 103.44% at 100% 0%, #C5331E 0%, #6087D0 17.07%, #A85ECD 43.36%, #C95693 83.12%, #DC414B 100%);
+    margin-right: 10px;
+  }
+  .container .item-3 {
+    background: radial-gradient(100.31% 100% at 102.81% 0%, #AE4CD9 0%, #5B33A2 100%);
+    margin-right: 10px;
+  }
+  .container .item-4 {
+    background: -webkit-gradient(linear, left top, left bottom, from(#2FB8FF), to(#00FFFF));
+    background: linear-gradient(180deg, #2FB8FF 0%, #00FFFF 100%);
+    margin-right: 10px;
+  }
+  .container .item-5 {
+    background: radial-gradient(100% 103.13% at 100% -3.12%, #3143A1 0%, #3A7CC8 60.73%, #45C8FB 100%);
+    margin-right: 10px;
+  }
+  .container .item-6 {
+    background: radial-gradient(100% 100% at 93.13% 0%, #223BBC 6.04%, #2293BC 67.5%, #27D987 100%);
+    margin-right: 10px;
+  }
+  .container .item-7 {
+    background: radial-gradient(100% 100% at 92.81% 0%, #0F987F 8.65%, #045F7E 66.46%, #320E96 100%);
+    margin-right: 10px;
+  }
+  .container .item-8 {
+    background: radial-gradient(101.87% 101.87% at 95.94% -1.87%, #FF4EF8 0%, #DD5CF2 11.22%, #DE5A35 79.48%, #C80B0B 100%);
+  }
+  .container .title {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: -0.08px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: 10px;
+    margin-top: 11px;
+    margin-bottom: 0;
+  }
+  .container .title__partners {
+    margin-right: 10px;
+  }
+  .container .title__ambassador {
+    margin-right: 10px;
+  }
+  .container .title__prize {
+    margin-right: 36px;
+  }
+  .container .title__talant {
+    margin-right: 54px;
+  }
+  .container .title__liga {
+    margin-bottom: 1px;
+  }
+  .container .title__ninja {
+    margin-right: 12px;
+  }
+  .container .title__community {
+    margin-right: 29px;
+  }
+  .container .title__family-1 {
+    margin-bottom: 0;
+  }
+  .container .title__family-2 {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: -0.08px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .container .title-2 {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: -0.08px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .container .dollar {
+    margin-left: 10px;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.38px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+  }
+  .container .dollar-1 {
+    margin-top: 7px;
+  }
+  .container .dollar-2 {
+    margin-top: 0;
+  }
+  .container .subtitle {
+    margin-left: 10px;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.24px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0px;
+  }
+  .container .subtitle__partners-1 {
+    margin-bottom: 8px;
+  }
+  .container .subtitle__partners-2 {
+    margin-bottom: 5px;
+  }
+  .container .subtitle__ambassador-1 {
+    margin-bottom: 0;
+  }
+  .container .subtitle__ambassador-2 {
+    margin-bottom: 31.5px;
+  }
+  .container .subtitle__liga-1,
+  .container .subtitle__liga-2 {
+    margin-right: 9px;
+    margin-bottom: 0;
+  }
+  .container .image {
+    max-width: 100%;
+  }
+  .container .image__item-partner,
+  .container .image__item-ambassador,
+  .container .image__item-prize-1,
+  .container .image__item-prize-2,
+  .container .image__item-talent,
+  .container .image__item-liga,
+  .container .image__item-ninja,
+  .container .image__item-family-1,
+  .container .image__item-family-2,
+  .container .image__item-family-3,
+  .container .image__item-community-1,
+  .container .image__item-community-2,
+  .container .image__item-community-3,
+  .container .image__item-community-4 {
+    position: absolute;
+  }
+  .container .image__item-ambassador,
+  .container .image__item-partner,
+  .container .image__item-prize-1,
+  .container .image__item-liga,
+  .container .image__item-ninja,
+  .container .image__item-family-2,
+  .container .image__item-family-3 {
+    right: 0px;
+    bottom: 0px;
+  }
+  .container .image__item-community-2 {
+    right: 0px;
+    bottom: 45px;
+  }
+  .container .image__item-community-3 {
+    right: 0px;
+    bottom: 0px;
+    border-radius: 15px;
+  }
+  .container .image__item-family-1,
+  .container .image__item-community-1 {
+    left: 0px;
+    bottom: 0px;
+    border-radius: 15px;
+  }
+  .container .image__item-community-4 {
+    margin-top: 4px;
+    margin-left: 48px;
+  }
+  .container .image__item-prize-2 {
+    margin-top: 29px;
+    margin-left: 13px;
+  }
+  .container .image__item-talent {
+    margin-top: 3px;
+    margin-left: 13px;
+  }
+  .container .image__item-ninja {
+    margin-bottom: 7.21px;
+  }
+  .container .image__item-family-3 {
+    margin-right: 8px;
+    margin-bottom: 15.25px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

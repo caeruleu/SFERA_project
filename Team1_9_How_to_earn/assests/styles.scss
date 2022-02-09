@@ -1,0 +1,280 @@
+@font-face {
+    font-family: "SF Pro Display";
+    src: url(/Team1_9_How_to_earn/assests/fonts/SFProDisplay-Regular.woff) format("woff");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@mixin title_style {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: -0.08px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+@mixin dollar_style {
+    margin-left: 10px;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.38px;
+    color: #FFFFFF;
+}
+
+@mixin subtitle {
+    margin-left: 10px;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.24px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+$background-item-1:radial-gradient(96.56% 96.56% at 96.56% 2.81%, #35C0DE 1.35%, #353DDE 34.08%, #4E1AA3 66.61%, #6B0C8C 100%);
+$background-item-2:radial-gradient(103.44% 103.44% at 100% 0%, #C5331E 0%, #6087D0 17.07%, #A85ECD 43.36%, #C95693 83.12%, #DC414B 100%);
+$background-item-3: radial-gradient(100.31% 100% at 102.81% 0%, #AE4CD9 0%, #5B33A2 100%);
+$background-item-4: linear-gradient(180deg, #2FB8FF 0%, #00FFFF 100%);
+$background-item-5: radial-gradient(100% 103.13% at 100% -3.12%, #3143A1 0%, #3A7CC8 60.73%, #45C8FB 100%);
+$background-item-6: radial-gradient(100% 100% at 93.13% 0%, #223BBC 6.04%, #2293BC 67.5%, #27D987 100%);
+$background-item-7:radial-gradient(100% 100% at 92.81% 0%, #0F987F 8.65%, #045F7E 66.46%, #320E96 100%);
+$background-item-8: radial-gradient(101.87% 101.87% at 95.94% -1.87%, #FF4EF8 0%, #DD5CF2 11.22%, #DE5A35 79.48%, #C80B0B 100%);
+$width: 160px;
+$height: 160px;
+
+@media screen and (max-width: 767px) {
+    .container {
+        display: flex;
+
+        // Items styles
+        .item {
+            position: relative;
+            min-width: $width;
+            height: $height;
+            border-radius: 15px;
+            box-shadow: inset -4px -3px 4px rgba(0, 0, 0, 0.25), inset 5px 5px 9px rgba(255, 255, 255, 0.25);
+        }
+
+        .item-1 {
+            background: $background-item-1;
+            margin-right: 10px;
+        }
+
+        .item-2 {
+            background: $background-item-2;
+            margin-right: 10px;
+        }
+
+        .item-3 {
+            background: $background-item-3;
+            margin-right: 10px;
+        }
+
+        .item-4 {
+            background: $background-item-4;
+            margin-right: 10px;
+        }
+
+        .item-5 {
+            background: $background-item-5;
+            margin-right: 10px;
+        }
+
+        .item-6 {
+            background: $background-item-6;
+            margin-right: 10px;
+        }
+
+        .item-7 {
+            background: $background-item-7;
+            margin-right: 10px;
+        }
+
+        .item-8 {
+            background: $background-item-8;
+        }
+
+        // End of items style
+        // Titles style
+        .title {
+            @include title_style;
+            margin-top: 11px;
+            margin-bottom: 0;
+        }
+
+        .title__partners {
+            margin-right: 10px;
+        }
+
+        .title__ambassador {
+            margin-right: 10px;
+        }
+
+        .title__prize {
+            margin-right: 36px;
+        }
+
+        .title__talant {
+            margin-right: 54px;
+        }
+
+        .title__liga {
+            margin-bottom: 1px;
+        }
+
+        .title__ninja {
+            margin-right: 12px;
+        }
+
+        .title__community {
+            margin-right: 29px;
+        }
+
+        .title__family-1 {
+            margin-bottom: 0;
+        }
+
+        .title__family-2 {
+            @include title_style;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        .title-2 {
+            @include title_style;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        // End of titles style
+        // Dollar style
+        .dollar {
+            @include dollar_style;
+            margin-bottom: 0;
+        }
+
+        .dollar-1 {
+            margin-top: 7px;
+        }
+
+        .dollar-2 {
+            margin-top: 0;
+        }
+
+        // End of dollar style
+        // Subtitles style
+        .subtitle {
+            @include subtitle;
+            margin-top: 0px;
+        }
+
+
+        .subtitle__partners-1 {
+            margin-bottom: 8px;
+        }
+
+        .subtitle__partners-2 {
+            margin-bottom: 5px;
+        }
+
+        .subtitle__ambassador-1 {
+            margin-bottom: 0;
+        }
+
+        .subtitle__ambassador-2 {
+            margin-bottom: 31.5px;
+        }
+
+        .subtitle__liga-1,
+        .subtitle__liga-2 {
+            margin-right: 9px;
+            margin-bottom: 0;
+        }
+
+        // End of subtitles style
+        // Images style
+        .image {
+            max-width: 100%;
+        }
+
+        .image__item-partner,
+        .image__item-ambassador,
+        .image__item-prize-1,
+        .image__item-prize-2,
+        .image__item-talent,
+        .image__item-liga,
+        .image__item-ninja,
+        .image__item-family-1,
+        .image__item-family-2,
+        .image__item-family-3,
+        .image__item-community-1,
+        .image__item-community-2,
+        .image__item-community-3,
+        .image__item-community-4 {
+            position: absolute;
+        }
+
+        .image__item-ambassador,
+        .image__item-partner,
+        .image__item-prize-1,
+        .image__item-liga,
+        .image__item-ninja,
+        .image__item-family-2,
+        .image__item-family-3 {
+            right: 0px;
+            bottom: 0px;
+        }
+
+        .image__item-community-2 {
+            right: 0px;
+            bottom: 45px;
+        }
+
+        .image__item-community-3 {
+            right: 0px;
+            bottom: 0px;
+            border-radius: 15px;
+        }
+
+        .image__item-family-1,
+        .image__item-community-1 {
+            left: 0px;
+            bottom: 0px;
+            border-radius: 15px;
+        }
+
+        .image__item-community-4 {
+            margin-top: 4px;
+            margin-left: 48px;
+        }
+
+        .image__item-prize-2 {
+            margin-top: 29px;
+            margin-left: 13px;
+        }
+
+        .image__item-talent {
+            margin-top: 3px;
+            margin-left: 13px;
+        }
+
+        .image__item-ninja {
+            margin-bottom: 7.21px;
+        }
+
+        .image__item-family-3 {
+            margin-right: 8px;
+            margin-bottom: 15.25px;
+        }
+
+        // End of images style
+    }
+}
