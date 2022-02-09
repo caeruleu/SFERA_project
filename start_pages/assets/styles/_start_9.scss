@@ -1,0 +1,25 @@
+@media screen and (max-width:767px) {
+    .page-container-9 {
+        background: url('../images/start9_bg_layer0.jpg');
+
+        &__bg-layer1 {
+            z-index: 1;
+            position: absolute;
+            top: 339.56px;
+        }
+
+        &__bg-layer2 {
+            position: absolute;
+            top: 526px;
+            z-index: 2;
+        }
+    }
+
+    .modal-window {
+        &__button-9 {
+            margin-top: 15%;
+            background-image: linear-gradient(rgba(103, 32, 94, 1), rgba(103, 32, 94, 1)),
+                linear-gradient(91.44deg, #9EADFF -10.29%, #FF8FFA 110.9%);
+        }
+    }
+}

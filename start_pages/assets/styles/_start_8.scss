@@ -1,0 +1,18 @@
+@media screen and (max-width:767px) {
+    .modal-window {
+        &__button-8 {
+            margin-top: 35%;
+            background-image: linear-gradient(rgba(103, 32, 94, 1), rgba(103, 32, 94, 1)),
+                linear-gradient(91.44deg, #9EADFF -10.29%, #FF8FFA 110.9%);
+        }
+    }
+
+    .page-container-8 {
+        background-image: url('../images/start8_bg.jpg');
+    }
+
+    .picture-container-8 {
+        margin-top: 15%;
+    }
+
+}

@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'SF Pro Display Medium';
+    src: url("../fonts/SFProDisplay-Medium.otf") format('opentype');
+}
+
+@media screen and (max-width:767px) {
+
+    .modal-window {
+        &__button-11 {
+            margin-top: 10%;
+            background-image: linear-gradient(rgba(103, 32, 94, 1), rgba(103, 32, 94, 1)),
+                linear-gradient(91.44deg, #9EADFF -10.29%, #FF8FFA 110.9%);
+        }
+
+        &__check-item {
+            display: flex;
+        }
+
+        &__checkbox-container {
+            width: 36px;
+            height: 36px;
+            background-image: linear-gradient(rgba(26, 18, 62, 0.9), rgba(26, 18, 62, 0.9)),
+                radial-gradient(circle, rgba(75, 135, 231, 0.6) 0%, rgba(254, 132, 255, 0.6) 100%);
+            border-radius: 12px;
+            border: 4px solid transparent;
+            border-width: 1px;
+            border-style: solid;
+            background-origin: border-box;
+            background-clip: padding-box, border-box;
+            margin-top: 4%;
+            margin-right: 3%;
+            margin-left: 10%;
+        }
+
+        &__checkbox-header {
+            font-family: 'SF Pro Display Medium';
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            letter-spacing: 0.2px;
+            color: rgba(255, 255, 255, 0.7);
+            mix-blend-mode: normal;
+        }
+
+        &__checkbox-text {
+            font-family: 'SF Pro Display Regular';
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 0.8rem;
+            font-weight: normal;
+            margin-top: -5%;
+        }
+
+        &__checkbox-text-container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__header-longer {
+            background: -webkit-linear-gradient(160deg, rgba(255, 101, 62, 1) 0%, rgba(255, 151, 241, 1) 50%, rgba(255, 154, 154, 1) 100%);
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-family: 'SF Pro Display Semibold';
+            font-size: 1.3rem;
+            line-height: 1.8 rem;
+            text-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+            align-self: center;
+            margin-top: 10%;
+        }
+
+    }
+
+    .picture-container-11 {
+        margin-top: 10%;
+    }
+
+    .page-container-11 {
+        background: linear-gradient(180deg, #0D246A 0%, #E14885 54.09%, #FB8B8B 100%);
+
+        &__bg-layer1 {
+            z-index: 1;
+            position: absolute;
+            top: 259.56px;
+        }
+
+        &__bg-layer2 {
+            position: absolute;
+            top: 326px;
+            z-index: 2;
+        }
+    }
+
+}
