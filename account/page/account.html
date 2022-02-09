@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="scss/normalize.css">
+    <link rel="stylesheet" href="scss/account.css">
+    <title>Account</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Profile -->
+        <header class="profile">
+            <img class="header_img" src="img/avatar.png" alt="">
+            <div class="header_text">
+                <p class="header_p text_nickname">@123ABCD4321</p>
+                <p class="header_p text_name"> ждан, 32</p>
+                <p class="header_p text_new">Новый пользователь</p>
+            </div>
+            <img class="header_img_qr" src="img/qr.png" alt="">
+            <div class="location">
+                <p><span>сейчас<br /></span> в Москва</p>
+                <img src="img/circlebtn.png" alt="">
+            </div>
+            <div class="location two">
+                <p><span>скоро<br /></span> в Киев</p>
+                <img src="img/circlebtn-1.png" alt="">
+            </div>
+        </header>
+
+        <!-- Inventory -->
+        <div class="inventory">
+            <div class="top_invent">
+                <p>Ваш инвентарь</p>
+                <img src="img/sfera.png" alt="">
+            </div>
+            <div class="mid_invent">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+            <div class="bot_invent">
+                <div class="btn_tournament">Турнир</div>
+                <div class="btn_invite">Пригласить друзей</div>
+            </div>
+        </div>
+
+        <!-- Hobbies -->
+        <div class="hobbies">
+            <p>Заполните облако интересов</p>
+            <div class="hobbies_img"><img src="img/partner.png" alt=""></div>
+            <div class="hobbies_img"><img src="img/partner1.png" alt=""></div>
+        </div>
+
+        <!-- Account Settings -->
+        <div class="account_settings">
+            <p>настройки аккаунта</p>
+            <div class="info_box">
+                <div class="phone">
+                    <img src="img/comp.png" alt="">
+                    <p class="question">телефон</p>
+                    <p class="answer">+7(961)888-39-99</p>
+                    <img src="img/vector.png" alt="">
+                </div>
+                <div class="social_media">
+                    <img src="img/comp.png" alt="">
+                    <p class="question">подключенные соц сети</p>
+                    <p class="answer">16</p>
+                    <img src="img/vector.png" alt="">
+                </div>
+                <div class="account_id">
+                    <img src="img/comp.png" alt="">
+                    <p class="question">id аккаунта</p>
+                    <p class="answer">1234ABCD4321</p>
+                    <img src="img/vector.png" alt="">
+                </div>
+                <div class="verification">
+                    <img src="img/comp.png" alt="">
+                    <p class="question">верификация</p>
+                    <p class="answer">не пройдена</p>
+                    <img src="img/vector.png" alt="">
+                </div>
+                <div class="email">
+                    <img src="img/comp.png" alt="">
+                    <p class="question">адрес эл.почты</p>
+                    <p class="answer">подтвердить</p>
+                    <img src="img/vector.png" alt="">
+                </div>
+                <p class="warn">Подтвердите адрес электронной почты, чтобы защитить ваш аккаунт</p>
+            </div>
+        </div>
+
+       <!-- Personal Data -->
+        <div class="personal_data">
+            <p>личные данные</p>
+            <div class="info_box">
+                <div class="age">
+                    <img src="img/comp.png" alt="">
+                    <p class="question">возраст</p>
+                    <p class="answer">07.10.1988</p>
+                    <img src="img/vector.png" alt="">
+                </div>
+                <div class="sex">
+                    <img src="img/comp.png" alt="">
+                    <p class="question">самоидентификация</p>
+                    <p class="answer">мужчина</p>
+                    <img src="img/vector.png" alt="">
+                </div>
+                <div class="about_me">
+                    <img src="img/comp.png" alt="">
+                    <p class="question">обо мне</p>
+                    <p class="answer">редактировать</p>
+                    <img src="img/vector.png" alt="">
+                </div>
+                <div class="search_range">
+                    <img src="img/comp.png" alt="">
+                    <p class="question">область поиска</p>
+                    <div class="search_slider">
+                        <p>город</p>
+                        <p>страна</p>
+                        <p>глобальный</p>
+                        <div class="slider">
+                            <input type="range" min="-100" max="0" value="0" class="range" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pick Mode -->
+        <div class="pick_mode">
+            <p>режим подбора</p>
+            <div class="info_box">
+                <div class="search_info">
+                    <img src="img/comp.png" alt="">
+                    <p class="question">кого ищем</p>
+                    <p class="answer">всех</p>
+                    <img src="img/vector.png" alt="">
+                </div>
+                <div class="cloud_meet">
+                    <img src="img/comp.png" alt="">
+                    <p class="question">облако для знакомств</p>
+                    <p class="answer">12355</p>
+                    <img src="img/vector.png" alt="">
+                </div>
+                <div class="verificated_only">
+                    <img src="img/comp.png" alt="">
+                    <p class="question">только верифицированным</p>
+                    <label class="switch">
+                        <input type="checkbox" id="toggle-button" checked>
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+                <div class="profile_trust">
+                    <img src="img/comp.png" alt="">
+                    <p class="question">по уровню доверия профиля</p>
+                    <label class="switch">
+                        <input type="checkbox" id="toggle-button" checked>
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+                <div div class="search_range">
+                    <img src="img/comp.png" alt="">
+                    <p class="question">показывать меня людям при совпадении интересов</p>
+                    <div class="range_persentage">
+                        <p>oт 70%</p>
+                        <p>до 100%</p>
+                    </div>
+                    <div class="slider">
+                        <input type="range" min="-100" max="0" value="0" class="range" />
+                    </div>
+                </div>
+                <div class="dates">
+                    <img src="img/comp.png" alt="">
+                    <p class="question">свидания</p>
+                    <label class="switch">
+                        <input type="checkbox" id="toggle-button" checked>
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+                <div class="cloud_for_dates">
+                    <img src="img/comp.png" alt="">
+                    <p class="question">облако для свиданий</p>
+                    <p class="answer">1245</p>
+                    <img src="img/vector.png" alt="">
+                </div>
+                <div div class="search_range">
+                    <img src="img/comp.png" alt="">
+                    <p class="question">возрастной диапазон для свиданий</p>
+                    <div class="range_persentage">
+                        <p>18-28</p>
+                    </div>
+                    <div class="slider">
+                        <input type="range" min="-100" max="0" value="0" class="range" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Basket -->
+        <div class="basket">
+            <p>корзина</p>
+            <div class="info_box">
+                <div class="content_box">
+                    <img src="img/comp.png" alt="">
+                    <p class="question">корзина подборок знакомств</p>
+                    <img src="img/vector.png" alt="">
+                </div>
+                <div class="content_box">
+                    <img src="img/comp.png" alt="">
+                    <p class="question">корзина подборок свиданий</p>
+                    <img src="img/vector.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- Notifications -->
+        <div class="notifications">
+            <p>уведомления</p>
+            <div class="info_box">
+                <div class="content_box">
+                    <img src="img/comp.png" alt="">
+                    <p class="question">push-уведомления</p>
+                    <img src="img/vector.png" alt="">
+                </div>
+                <div class="content_box">
+                    <img src="img/comp.png" alt="">
+                    <p class="question">суведомления на эл.почту</p>
+                    <img src="img/vector.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- Community -->
+        <div class="community">
+            <p>сообщество</p>
+            <div class="info_box">
+                <div class="content_box">
+                    <img src="img/comp.png" alt="">
+                    <p class="question">правила сообщества</p>
+                    <img src="img/vector.png" alt="">
+                </div>
+                <div class="content_box">
+                    <img src="img/comp.png" alt="">
+                    <p class="question">советы по безопастности</p>
+                    <img src="img/vector.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- Exit Buttons -->
+        <div class="btn_exit">
+            <button id="exit">выйти</button>
+            <button id="delete_acc">удалить аккаунт</button>
+        </div>
+        <div class="footer_text">version 2.0 beta</div>
+    </div>
+</body>
+
+</html>
